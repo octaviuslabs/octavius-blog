@@ -14,7 +14,7 @@ serve:
 
 build:
   <<: *base
-  entrypoint: jekyll build
+  entrypoint: bundle exec jekyll build
 
 draft:
   <<: *base
