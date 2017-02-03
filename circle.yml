@@ -1,0 +1,14 @@
+machine:
+  ruby:
+    version: 2.3.0
+
+dependencies:
+  override:
+    - bundle install
+    - bundle exec jekyll build
+
+deployment:
+  prod:
+    branch: master
+    commands:
+      - aws s3 sync ./_site s3://octavius-blog/blog/ --delete
