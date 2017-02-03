@@ -1,0 +1,37 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: octavius blog
+email: hello@octaviuslabs.com
+description: > # this means to ignore newlines until "baseurl:"
+  octavius is a group of talented people that create and market products.
+  This blog will house the things that we've learned working on 
+  our own products and products for clients.
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+url: "https://www.octaviuslabs.com"
+twitter_username: octaviuslabs
+github_username:  octaviuslabs
+
+# Build settings
+markdown: kramdown
+theme: minima
+gems:
+  - jekyll-feed
+  - jekyll-sitemap
+exclude:
+  - Gemfile
+  - Gemfile.lock
+destination: ../dist
+permalink: /:title
