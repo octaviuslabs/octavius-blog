@@ -27,16 +27,15 @@ github_username:  octaviuslabs
 # Build settings
 markdown: kramdown
 theme: minima
+permalink: /:title
 gems:
   - jekyll-feed
   - jekyll-sitemap
 exclude:
-  - Gemfile
-  - Gemfile.lock
+  - Gemfile*
   - Dockerfile
-  - docker-compose
-  - .git
-  - .gitignore
-  - Readme.md
+  - docker-compose*
+  - .git*
+  - Readme*
   - vendor/
-permalink: /:title
+  - circle
