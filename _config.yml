@@ -39,3 +39,4 @@ exclude:
   - .gitignore
   - Readme.md
 permalink: /:title
+destination: blog
