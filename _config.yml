@@ -17,7 +17,7 @@ title: octavius blog
 email: hello@octaviuslabs.com
 description: > # this means to ignore newlines until "baseurl:"
   octavius is a group of talented people that create and market products.
-  This blog will house the things that we've learned working on 
+  This blog will house the things that we've learned working on
   our own products and products for clients.
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://www.octaviuslabs.com"
@@ -33,5 +33,9 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
-destination: ../dist
+  - Dockerfile
+  - docker-compose
+  - .git
+  - .gitignore
+  - Readme.md
 permalink: /:title

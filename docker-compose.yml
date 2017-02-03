@@ -1,8 +1,7 @@
 base: &base
   build: .
   volumes:
-    - ./src:/myapp
-    - ./dist:/dist
+    - .:/myapp
 
 dev:
   <<: *base
