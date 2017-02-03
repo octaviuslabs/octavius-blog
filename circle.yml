@@ -7,6 +7,10 @@ dependencies:
     - bundle install
     - bundle exec jekyll build
 
+test:
+  override:
+    - echo "This is the only test"
+
 deployment:
   prod:
     branch: master
