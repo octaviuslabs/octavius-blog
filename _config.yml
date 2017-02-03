@@ -38,4 +38,5 @@ exclude:
   - .git
   - .gitignore
   - Readme.md
+  - vendor/
 permalink: /:title
