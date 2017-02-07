@@ -15,4 +15,4 @@ deployment:
   prod:
     branch: master
     commands:
-      - aws s3 sync ./_site s3://octavius-blog/blog/ --delete
+      - aws s3 sync ./_site s3://octavius-blog/ --delete
