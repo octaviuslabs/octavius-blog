@@ -21,7 +21,7 @@ To help at find an answer to this question we have a thought experiment to deter
 
 As a simplified example, something like a cure for Ebola would be adopted at virtually any price point but is technically difficult to achieve, thus an Ebola cure would be a high product risk, low market risk opportunity.
 
-[We believe the best opportunities in software right now are high market risk, low product risk.]({{ site.url }}/{{ site.baseurl }}/assets/octavius_opportunity.png)
+[We believe the best opportunities in software right now are high market risk, low product risk.]({{ site.baseurl }}/assets/octavius_opportunity.png)
 
 The octavius mission is to find and execute on high market risk/low product risk ideas because Market Risk is something that can be understood and managed through testing for a relatively low cost.
 To frame this distinction, we think through the following questions:
@@ -32,7 +32,7 @@ For OutreachPro we already had a lightweight solution built that took about a da
 
 With regard to the market, we don’t know people who will immediately adopt the product so there is still quite a bit of market risk that we need to spend some time understanding. To provide more clarity we develop an experiment aimed at measuring prospective customer’s movement from the awareness section of the purchasing funnel to the consideration.
 
-![The first step to understanding the market is making people aware of the offering and see if they move from awareness to consideration]({{ site.url }}/{{ site.baseurl }}/assets/funnel.png)
+![The first step to understanding the market is making people aware of the offering and see if they move from awareness to consideration]({{ site.baseurl }}/assets/funnel.png)
 
 ### Testing Awareness-Consideration Movement
 Spending money on a designer at this point wouldn’t help of get an understanding of market risk. Yes websites with beautiful designs convert well, but what if we can get people to convert on a site that wasn't flawlessly designed. Would that mean that we are on to something?
@@ -59,7 +59,7 @@ To solve this problem, we fired up Sketch 3 and designed some SUPER crude mockup
 
 Lucky for us, Sketch 3 files are supported by Invision out of the box. In about a day, we designed the required UI for a basic workflow in Sketch, uploaded it to Invision, and made the Sketch designs into a clickable mockup.
 
-![Invision is amazing for making clickable mockups that look and feel like a full blown dynamic product.]({{ site.url }}/{{ site.baseurl }}/assets/prototype.png)
+![Invision is amazing for making clickable mockups that look and feel like a full blown dynamic product.]({{ site.baseurl }}/assets/prototype.png)
 
 Next we used QuickTime to do a screen recording of a walk through. The recording went into iMovie and then we did some light editing. The end product was just enough to create a video that can communicate the functionality of the product. Once the traffic starts rolling and we have a baseline of data, we will set Marching Penguin into action to create a higher quality version to see how that help us move people into consideration.
 
@@ -67,6 +67,6 @@ Next we used QuickTime to do a screen recording of a walk through. The recording
 
 The next step is to drive enough traffic to the site to have a statistically relevant sample of users. Since we want to test out multiple acquisition channels we used the Google Url Builder to setup urls for Twitter, Facebook, LinkedIn, and Google Ads.
 
-![Keep all of your links in one spot.]({{ site.url }}/{{ site.baseurl }}/assets/links.png)
+![Keep all of your links in one spot.]({{ site.baseurl }}/assets/links.png)
 
 In this post we talked a bit about the philosophy behind this method of testing and the raw materials needed for the test. In the next post, we will explore how the ad campaign is put together, who we are targeting, and what we look for in the analytics.
