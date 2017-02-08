@@ -27,7 +27,7 @@ github_username:  octaviuslabs
 # Build settings
 markdown: kramdown
 theme: minima
-permalink: /:title/index.html
+permalink: /:title/
 gems:
   - jekyll-feed
   - jekyll-sitemap
