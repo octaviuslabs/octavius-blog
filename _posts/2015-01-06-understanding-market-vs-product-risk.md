@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Understanding Market vs Product Risk
+subtitle: Open lab notes on building OutreachPro
 date: 2015-01-06
 ---
 
